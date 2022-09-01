@@ -7,6 +7,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h3 {
+	margin: 0;
+}
+
 img {
 	max-width: 100%;
 }
@@ -67,6 +71,7 @@ section {
 .homepage-subheading {
 	margin: 0;
 	padding-top: 1.5em;
+	/* font-family: 'Open Sans', sans-serif; */
 	font-size: 1.5em;
 	color: #a0a0a0;
 }
@@ -79,8 +84,8 @@ section {
 /* ABOUT */
 
 .about {
-	background: #111;
-	color: #F5F5F5;
+	background: #ffa90a;
+	color: #111;
 	text-align: center;
 	line-height: 1.4;
 }
@@ -96,7 +101,7 @@ section {
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 2em;
-	border: 10px solid #ffa90a;
+	border: 10px solid #F5F5F5;
 
 }
 
@@ -105,17 +110,29 @@ section {
 .git-projects {
 	/* width: 80%; */
 	margin: 0 auto;
+	background: #111;
+	color: #F5F5F5
+}
+
+.section-title-projects {
+	color:#F5F5F5;
 }
 
 .git-project {
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 1em;
-	
 }
 
 .project-image {
 	width: 40%;
+}
+
+.project-title {
+	font-size: 1.25em;
+	color: #ffa90a;
+	/* text-decoration: underline; */
+	text-transform: uppercase;
 }
 
 .project-description {
@@ -131,7 +148,7 @@ section {
 
 .project-link {
 	text-decoration: none;
-	color: #111;
+	color: #F5F5F5;
 	text-transform: uppercase;
 }
 
@@ -139,13 +156,27 @@ section {
 	text-decoration: underline;
 }
 
+.btn {
+	padding: .75em 1em;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1em;
+	border: none;
+	border-radius: 5px;
+	background: #ffa90a;
+	color: #111;
+	text-transform: uppercase;
+
+}
+
 .margin-left {
 	margin-left: 1em;
 }
 
+/* CONTACT */
+
 .contact {
-	background: #111;
-	color: #F5F5F5;
+	
+	color: #ffa90a;
 }
 
 
