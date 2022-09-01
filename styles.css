@@ -4,8 +4,7 @@
 
 body {
 	margin: 0;
-	font-family: 'Indie Flower', cursive;
-
+	font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -13,12 +12,14 @@ img {
 }
 
 section {
-	padding: 2em 0;
+	padding: 3em 0;
 }
 
 .section-title {
-	margin: 0 0 1.5em 0;
-
+	font-family: 'Indie Flower', cursive;
+	margin: 0 0 1em 0;
+	font-size: 2.5em;
+	text-decoration: underline;
 	/* padding-top: 2em; */
 	text-align: center;
 }
@@ -26,7 +27,6 @@ section {
 .page {
 	display: flex;
 	justify-content: center;
-	
 	background-image: url("../../images/screen.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -49,6 +49,7 @@ section {
 /* HOMEPAGE */
 
 .homepage {
+	font-family: 'Indie Flower', cursive;
 	padding-top: 3em;
 	text-align: center;
 	background-color: #111;
@@ -80,9 +81,8 @@ section {
 .about {
 	background: #111;
 	color: #F5F5F5;
-	/* padding-top: 4em; */
-	/* width: 80%; */
-	/* text-align: center; */
+	text-align: center;
+	line-height: 1.4;
 }
 
 .about-text {
@@ -95,6 +95,9 @@ section {
 	width: 60%;
 	display: block;
 	margin: 0 auto;
+	margin-bottom: 2em;
+	border: 10px solid #ffa90a;
+
 }
 
 /* PROJECTS */
