@@ -5,6 +5,7 @@
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	overflow-y: scroll;
 }
 
 h3 {
@@ -13,6 +14,10 @@ h3 {
 
 img {
 	max-width: 100%;
+}
+
+strong {
+	background: #F5F5F5;
 }
 
 section {
@@ -65,15 +70,16 @@ section {
 .homepage-name {
 	font-size: 6rem;
 	margin: 0;
-	margin-bottom: .75em;
+	margin-bottom: .5em;
 }
 
 .homepage-subheading {
 	margin: 0;
-	padding-top: 1.5em;
+	padding-top: .75em;
 	/* font-family: 'Open Sans', sans-serif; */
-	font-size: 1.5em;
-	color: #a0a0a0;
+	font-size: 2em;
+	/* color: #a0a0a0; */
+	color:#ffa90a;
 }
 
 .arrow-down {
@@ -157,15 +163,25 @@ section {
 }
 
 .btn {
-	padding: .75em 1em;
+	padding: .5em .75em;
 	font-family: 'Indie Flower', cursive;
-	font-size: 1em;
+	font-size: 1rem;
+	/* border: 3px solid #F5F5F5; */
 	border: none;
 	border-radius: 5px;
 	background: #ffa90a;
 	color: #111;
 	text-transform: uppercase;
+	transition: background .5s ease-in-out;
+}
 
+.btn:hover {
+	cursor: pointer;
+	background: #F5F5F5;
+}
+
+btn:focus {
+	border: 5px solid #F5F5F5;
 }
 
 .margin-left {
