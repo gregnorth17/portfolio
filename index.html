@@ -4,30 +4,44 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300;800;900&family=Indie+Flower&family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
 	<title>Greg North</title>
 </head>
 <body>
-	<div class="page">
-		<div class="screen">
-			<section class="homepage">
-				<h3 class="homepage-subheading">Frontend developer</h3>
-				<h1 class="homepage-name">Greg North</h1>
-				<img class="arrow-down" src="images/down-arrow.png" alt="down arrow"/>
+	<!-- <div class="page"> -->
+		<!-- <div class="screen"> -->
+			<header>
+				<button class="nav-toggle" aria-label="toggle navigation">
+					<span class="hamburger"></span>
+				</button>
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+						<li class="nav-item"><a class="nav-link" href="#projects">projects</a></li>
+						<li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">cv</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<section class="intro">
+				<h1 class="intro-title">Ahoy there, I am <strong class="intro-title-bold">Greg North</strong></h1>
+				<h3 class="intro-subheading">frontend developer</h3>
+				<!-- <img class="arrow-down" src="images/down-arrow.png" alt="down arrow"/> -->
 			</section>
 			
-			<section class="about">
+			<section id="about" class="about">
 				<div class="about-text">
 					<h2 class="section-title">about me</h2>
-					<img class="about-img" src="images/me.jpeg" alt="me" />
+					<img class="about-img" src="images/me.jpeg" alt="me drinking mate" />
 					<p>After the the pandemic started I found myself with a lot of time on my hands so I thought why not do something productive so the idea of learning to code and learning spanish was born. Want to feel stupid? Try learning those two new skills together! Below are a few projects that I have worked on recently using <strong>React, Javascript</strong> and of course good old <strong>CSS and HTML</strong>, so as the Beastie Boys said, "Ch, ch, ch, ch ch, check it out!"</p>
 				</div>
 			</section>
 
-			<section class="git-projects">
+			<section id="projects" class="git-projects">
 				<h2 class="section-title section-title-projects">Projects</h2>
 				<div class="git-project">
 					<img class="project-image"   src="images/project1.png" alt="project 1" />
@@ -74,15 +88,22 @@
 					</div>
 				</div>
 			</section>
-			<section class="contact">
+			<section id="contact" class="contact">
 				<h2 class="section-title section-title-contact">Contact</h2>
-				<div class="">
-					<p class="contact-text">As my photo shows I am currently on the look out for a job and if you are interested my C.V is available to download below. When I am not doing my best Sherlock Homes impression or programming you will normally find me watching football, learning spanish, going to the gym or baking so if you want to get intouch to talk about any of those things do not hesitate!</p>
-					<img src="" alt="">
+				<div class="contact-data">
+					<p class="contact-text">As my photo shows I am currently on the look out for a job so if you are interested my C.V is available to download below. When I am not doing my best Sherlock Homes impression or programming you will normally find me watching football, learning spanish, going to the gym or baking. If you want to get in touch to talk about any of those things do not hesitate!</p>
+					<div class="contact-photo-container">
+						<img class="contact-photo"  src="images/me2.jpeg" alt="Me with hat and magnifying glass">
+					</div>
 				</div>
+				<ul class="social-list">
+					<li class="social-item"><a class="social-link" href="">gregnorth85@gmail.com</a></li>
+					<li class="social-item"><a class="social-link" href="">GITHUB</a></li>
+					<li class="social-item"><a class="social-link" href="">LinkedIN</a></li>
+				</ul>
 			</section>
-		</div>
-	</div>
+		<!-- </div> -->
+	<!-- </div> -->
 	<script src="index.js"></script>
 </body>
 </html>
